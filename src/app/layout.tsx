@@ -1,12 +1,8 @@
 import "~/styles/globals.css";
 
 import { GeistSans } from "geist/font/sans";
-import { Inter } from "next/font/google";
 
 import { type Metadata } from "next";
-const inter = Inter({
-
-});
 
 export const metadata: Metadata = {
   title: "Create T3 App",
