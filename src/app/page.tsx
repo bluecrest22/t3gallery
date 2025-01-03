@@ -16,9 +16,9 @@ const mockImages = mockUrls.map((url, index) => ({
 
 export default  async function HomePage() {
 
-  //const result = await db.query('SELECT * FROM t3gallery_post');
-  //const posts = result.rows;
-  //console.log(posts);
+  const result = await db.query('SELECT * FROM t3gallery_post');
+  const posts = result.rows;
+  console.log(posts);
   //{posts.map((post) => (<div key={post.id}>{post.name}</div>))}
   return (
     <main className="">
