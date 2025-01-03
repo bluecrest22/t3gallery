@@ -16,13 +16,12 @@ const mockImages = mockUrls.map((url, index) => ({
 
 export default async function HomePage() {
 
-  const posts = await db.query.posts.findMany();
-  console.log(posts);
+  //const posts = await db.query.posts.findMany();
   //{posts.map((post) => (<div key={post.id}>{post.name}</div>))}
+  
   return (
     <main className="">
       <div className="flex flex-wrap gap-4">
-      
         {mockImages.map((image) => ( 
           <div key={image.id} className="w-1/2 md:w-1/3 lg:w-1/4 p-2">
             <img src={image.url} />
