@@ -1,5 +1,6 @@
 import { db } from "@vercel/postgres";
-import Link from "next/link";
+
+export const dynamic = "force-dynamic";
 
 const mockUrls = [
   "https://utfs.io/f/gMuN1NEay7O2ZQY9eVCJ58pSRcbTFPuVotxHlWnC3h2IZUwe",
